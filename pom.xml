@@ -20,6 +20,12 @@
 		</license>
 	</licenses>
 	<dependencies>
+		<dependency>
+			<groupId>uqbar</groupId>
+			<artifactId>util-commons</artifactId>
+			<version>3.0.1-SNAPSHOT</version>
+		</dependency>
+	
 		<!--  WICKET DEPENDENCIES -->
 		<dependency>
 			<groupId>org.apache.wicket</groupId>

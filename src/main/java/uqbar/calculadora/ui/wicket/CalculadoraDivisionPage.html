@@ -8,20 +8,20 @@
 		<div class="container">
 			<form wicket:id="calculadoraForm">
 				<div class="renglon">
-					<div class="label">Ingrese un valor:</div>
+					<div class="label">Ingrese el Dividendo:</div>
 					<div>
-						<input wicket:id="operando1" type="text" size="6"/>
+						<input wicket:id="dividendo" type="text" size="6"/>
 					</div>
 				</div>
 				<div class="renglon">
-					<div class="label">Ingrese otro valor:</div>
+					<div class="label">Ingrese el Divisor:</div>
 					<div>
-						<input wicket:id="operando2" type="text" size="6"/>
+						<input wicket:id="divisor" type="text" size="6"/>
 					</div>
 				</div>
 	            <div wicket:id="feedbackPanel" class="feedbackPanel"/>
 	            <div class="renglon">
-	            	<input type="submit" wicket:id="sumar" value="Sumar" class="boton">
+	            	<input type="submit" wicket:id="dividir" value="Dividir" class="boton">
 	            </div>
 	            <div class="separador"/>
 	            <div class="renglon">

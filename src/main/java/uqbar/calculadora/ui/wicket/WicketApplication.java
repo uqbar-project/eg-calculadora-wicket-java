@@ -19,9 +19,9 @@ public class WicketApplication extends WebApplication
 	/**
 	 * @see org.apache.wicket.Application#getHomePage()
 	 */
-	public Class<CalculadoraPage> getHomePage()
+	public Class<CalculadoraDivisionPage> getHomePage()
 	{
-		return CalculadoraPage.class;
+		return CalculadoraDivisionPage.class;
 	}
 
 }

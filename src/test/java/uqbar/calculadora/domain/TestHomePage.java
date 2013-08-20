@@ -4,7 +4,7 @@ import junit.framework.TestCase;
 
 import org.apache.wicket.util.tester.WicketTester;
 
-import uqbar.calculadora.ui.wicket.CalculadoraPage;
+import uqbar.calculadora.ui.wicket.CalculadoraDivisionPage;
 import uqbar.calculadora.ui.wicket.WicketApplication;
 
 /**
@@ -23,10 +23,10 @@ public class TestHomePage extends TestCase
 	public void testRenderMyPage()
 	{
 		//start and render the test page
-		tester.startPage(CalculadoraPage.class);
+		tester.startPage(CalculadoraDivisionPage.class);
 
 		//assert rendered page class
-		tester.assertRenderedPage(CalculadoraPage.class);
+		tester.assertRenderedPage(CalculadoraDivisionPage.class);
 
 		//assert rendered label component
 		tester.assertLabel("message", "If you see this message wicket is properly configured and running");
